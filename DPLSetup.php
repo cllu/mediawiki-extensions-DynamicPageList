@@ -1227,7 +1227,7 @@ class ExtDynamicPageList {
 			);
 		}
 
-		if ( !defined( 'MW_UPDATER' ) ) {
+		if ( false && !defined( 'MW_UPDATER' ) ) {
 			// make sure page "Template:Extension DPL" exists
 			$title = Title::newFromText( 'Template:Extension DPL' );
 			global $wgUser;
